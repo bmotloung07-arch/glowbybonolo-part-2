@@ -1,0 +1,3 @@
+function showOffer() {
+document.getElementById("offer").innerHTML ="20% off all skincare products!";
+}
