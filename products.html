@@ -24,35 +24,65 @@
 
 <main>
     <h2>Our products</h2>
+     <input type="text" id="searchbar" placeholder="search products">
+
     <ul> 
         <li> 
+
+<div class="gallery">
+
             Glow serum - R150<br> 
+  <img src="images/index.png" onclick="openImage(this)" width="200">
+<p>A lightweight hydrating serum enriched with Hyluronic Acid 
+    and Rose Extract. Helps improve skin hydration, 
+    promotes a healthy glow, and leaves the skin
+    feeling soft and refreshed. Suitable for daily 
+    use on all skin types.
+</p>
             <button>Add to cart</button>
             </li>
              <br>
              <li> 
                 Face cream - R120<br>
+  <img src="images/product2.jpeg" onclick="openImage(this)"width="200">
+<p>A nourishing moisturizer designed to lock in moisture and support healthy skin.
+    Helps reduce dryness, improves the softness of skin and provides long lasting hydration.
+    Ideal for maintaining smooth, radiant and healthy- looking skin.
+</p>
                 <button>Add to cart</button>
              </li>
              <br>
              <li>
-                Cleanser - R100 <br>
+             Cleanser - R100 <br>
+  <img src="images/product3.jpeg" onclick="openImage(this)"width="200">
+  <p>A gentle face cleanser formulated to remove dirt, excess oil, and impurities without striping the skin.
+    helps cleanse pores, refresh the complexion, and prepare the skin for serums and moisturizers.
+    Suitable for daily morning and evening skincare routines.
+  </p>
+
                 <button> Add to cart</button>
              </li>
+</div>
+
     </ul>
 </main>
 
 <footer>
-    <p> &copy 2023 Glow by Bonolo</p>
+    
 </footer>
 
 <div class="gallery">
-  <img src="images/index.png" onclick="openImage(this)">
-  <img src="product2.jpeg" onclick="openImage(this)">
+  
 </div>
 
+<footer> 
+    <p> &copy 2023 Glow by Bonolo</p>
+
+</footer>
+
+
 <div id="lightbox">
-  <span onclick="closeImage()">&times;</span>
+  <span onclick="closeImage()">&times</span>
   <img id="lightbox-img">
 </div>
 

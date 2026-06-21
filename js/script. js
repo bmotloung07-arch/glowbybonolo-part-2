@@ -1,3 +1,13 @@
 function showOffer() {
 document.getElementById("offer").innerHTML ="20% off all skincare products!";
 }
+
+function openImage(img){
+    document.getElementByld("lightbox").style.dis-
+    play="block";
+    document.getElementByldid("lightbox-img").src=img.src;
+}
+
+fuction closeImage(){
+    document.getElementByld("lightbox").styl.dis-play="none";
+}
